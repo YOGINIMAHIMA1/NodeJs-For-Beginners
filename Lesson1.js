@@ -12,3 +12,9 @@ console.log(path.basename(__filename));
 console.log(path.extname(__filename));
 
 console.log(path.parse(__filename))
+
+const math= require('./mathematics.js')
+console.log(math.add(2,5))
+console.log(math.subtract(13,5))
+console.log(math.divide(15,5))
+console.log(math.multiply(4,3))
